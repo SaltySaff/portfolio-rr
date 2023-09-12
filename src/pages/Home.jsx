@@ -6,6 +6,7 @@ import Projects from "../components/Projects";
 export default function Home() {
   return (
     <>
+      <a id="top"></a>
       <Hero />
       <About />
       <Projects />

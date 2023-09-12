@@ -10,7 +10,7 @@ export default function Header() {
         <div className="header__main">
           <ul className="header__links">
             <li className="header__link-wrapper">
-              <Link to="/#" className="header__link">
+              <Link to="/#top" className="header__link">
                 Home
               </Link>
             </li>
