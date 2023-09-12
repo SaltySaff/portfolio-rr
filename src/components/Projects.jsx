@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import projectMockup from "../assets/jpeg/project-mockup-example.jpeg";
 import quizzicalMockup from "../assets/jpeg/quizzical-mockup.jpg";
 
