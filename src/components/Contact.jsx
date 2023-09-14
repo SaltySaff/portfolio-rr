@@ -7,8 +7,9 @@ export default function Contact() {
             Contact
           </span>
           <span className="heading-sec__sub heading-sec__sub--lt">
-            Please react out to me if you have any questions! I'm always up for
-            discussing new projects and ideas! The best place to reach me is
+            Please reach out to me if you have any questions! I'm always up for
+            discussing new projects and looking for new oppurtunities! The best
+            place to reach me is{" "}
             <strong>
               <a
                 className="contact__link"

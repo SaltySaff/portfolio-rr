@@ -129,7 +129,7 @@ textarea {
   top: calc(100% + 1.5rem);
   height: 5px;
   width: 3rem;
-  background: #0062b9;
+  background: #2fad6e;
   left: 50%;
   transform: translateX(-50%);
   border-radius: 5px;
@@ -194,13 +194,13 @@ textarea {
   font-size: 1.6rem;
 }
 .btn--theme {
-  background: #0062b9;
+  background: #2fad6e;
   color: #fff;
 }
 .btn--theme-inv {
-  color: #0062b9;
+  color: #2fad6e;
   background: #fff;
-  border: 2px solid #0062b9;
+  border: 2px solid #2fad6e;
   box-shadow: none;
   padding: calc(1.5rem - 2px) calc(5rem - 2px);
 }
@@ -235,8 +235,8 @@ textarea {
   color: #fff;
   background: linear-gradient(
       to right,
-      rgba(0, 98, 185, 0.8),
-      rgba(0, 98, 185, 0.8)
+      rgba(47, 173, 110, 0.8),
+      rgba(47, 173, 110, 0.8)
     ),
     url("../assets/svg/common-bg.svg");
   background-position: center;
@@ -424,8 +424,8 @@ textarea {
 .contact {
   background: linear-gradient(
       to right,
-      rgba(0, 98, 185, 0.8),
-      rgba(0, 98, 185, 0.8)
+      rgba(47, 173, 110, 0.8),
+      rgba(47, 173, 110, 0.8)
     ),
     url("../assets/svg/common-bg.svg");
   background-size: cover;
@@ -531,8 +531,8 @@ textarea {
   color: #fff;
   background: linear-gradient(
       to right,
-      rgba(0, 98, 185, 0.8),
-      rgba(0, 98, 185, 0.8)
+      rgba(47, 173, 110, 0.8),
+      rgba(47, 173, 110, 0.8)
     ),
     url("../assets/svg/common-bg.svg");
   background-size: cover;
@@ -677,7 +677,7 @@ textarea {
   transition: color 0.3s;
 }
 .header__logo-container:hover {
-  color: #0062b9;
+  color: #2fad6e;
 }
 .header__logo-img-cont {
   width: 5rem;
@@ -685,7 +685,7 @@ textarea {
   border-radius: 50px;
   overflow: hidden;
   margin-right: 1.5rem;
-  background: #0062b9;
+  background: #2fad6e;
 }
 @media only screen and (max-width: 56.25em) {
   .header__logo-img-cont {
@@ -726,7 +726,7 @@ textarea {
   transition: color 0.3s;
 }
 .header__link:hover {
-  color: #0062b9;
+  color: #2fad6e;
 }
 @media only screen and (max-width: 56.25em) {
   .header__link {
@@ -786,7 +786,7 @@ textarea {
   transition: color 0.3s;
 }
 .header__sm-menu-link a:hover {
-  color: #0062b9;
+  color: #2fad6e;
 }
 .header__sm-menu-link:first-child a {
   border-top: 1px solid #eee;

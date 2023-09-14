@@ -1,5 +1,6 @@
 import projectMockup from "../assets/jpeg/project-mockup-example.jpeg";
 import quizzicalMockup from "../assets/jpeg/quizzical-mockup.jpg";
+import todoMockup from "../assets/jpeg/todo-mockup.jpg"
 
 export default function Projects() {
   return (
@@ -42,7 +43,7 @@ export default function Projects() {
           <div className="projects__row">
             <div className="projects__row-img-cont">
               <img
-                src={projectMockup}
+                src={todoMockup}
                 alt="Software Screenshot"
                 className="projects__row-img"
                 loading="lazy"
@@ -51,12 +52,10 @@ export default function Projects() {
             <div className="projects__row-content">
               <h3 className="projects__row-content-title">To Do</h3>
               <p className="projects__row-content-desc">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
-                facilis tempora, explicabo quae quod deserunt eius sapiente
-                praesentium.
+              Embark on a productivity journey with our React-based todo app, enhanced by the power of react-beautiful-dnd. Seamlessly add, delete, filter, and indulge in the satisfying drag-and-drop experience for your todos. This user-friendly application elevates task management to a new level, ensuring you stay organized and productive, all with the ease and style of ReactJS.
               </p>
               <a
-                href="./project-2.html"
+                href="./todo"
                 className="btn btn--med btn--theme dynamicBgClr"
                 target="_blank"
               >
