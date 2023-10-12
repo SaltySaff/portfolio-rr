@@ -1,6 +1,7 @@
 import projectMockup from "../assets/jpeg/project-mockup-example.jpeg";
 import quizzicalMockup from "../assets/jpeg/quizzical-mockup.jpg";
-import todoMockup from "../assets/jpeg/todo-mockup.jpg"
+import todoMockup from "../assets/jpeg/todo-mockup.jpg";
+import { Link } from "react-router-dom";
 
 export default function Projects() {
   return (
@@ -27,17 +28,19 @@ export default function Projects() {
             <div className="projects__row-content">
               <h3 className="projects__row-content-title">Quizzical</h3>
               <p className="projects__row-content-desc">
-                A ReactJS app that leverages the OpenTDB API to create engaging
-                multi-choice quizzes. Test your knowledge on various subjects
-                with ease and fun in this user-friendly quiz application.
+                This project entails a quiz application developed using ReactJS,
+                utilizing the OpenTDB API to generate a variety of multi-choice
+                quizzes across different subjects. The application emphasizes an
+                enjoyable and easy-to-navigate user experience, allowing users
+                to test their knowledge effortlessly.
               </p>
 
-              <a
-                href="./quizzical"
-                className="btn btn--med btn--theme dynamicBgClr disable-smooth-scroll"
+              <Link
+                to="/quizzical"
+                className="btn btn--med btn--theme dynamicBgClr"
               >
                 Case Study
-              </a>
+              </Link>
             </div>
           </div>
           <div className="projects__row">
@@ -52,15 +55,15 @@ export default function Projects() {
             <div className="projects__row-content">
               <h3 className="projects__row-content-title">To Do</h3>
               <p className="projects__row-content-desc">
-              Embark on a productivity journey with our React-based todo app, enhanced by the power of react-beautiful-dnd. Seamlessly add, delete, filter, and indulge in the satisfying drag-and-drop experience for your todos. This user-friendly application elevates task management to a new level, ensuring you stay organized and productive, all with the ease and style of ReactJS.
+                This project demonstrates a ToDo application built with React,
+                showcasing the implementation of react-beautiful-dnd for an
+                interactive drag-and-drop experience. The application supports
+                functionalities such as adding, deleting, and filtering tasks,
+                providing a user-friendly interface for managing daily tasks.
               </p>
-              <a
-                href="./todo"
-                className="btn btn--med btn--theme dynamicBgClr"
-                target="_blank"
-              >
+              <Link to="/todo" className="btn btn--med btn--theme dynamicBgClr">
                 Case Study
-              </a>
+              </Link>
             </div>
           </div>
           <div className="projects__row">
@@ -73,19 +76,18 @@ export default function Projects() {
               />
             </div>
             <div className="projects__row-content">
-              <h3 className="projects__row-content-title">Project 3</h3>
+              <h3 className="projects__row-content-title">Movie Watchlist</h3>
               <p className="projects__row-content-desc">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
                 facilis tempora, explicabo quae quod deserunt eius sapiente
                 praesentium.
               </p>
-              <a
-                href="./project-3.html"
+              <Link
+                to="/movie-watchlist"
                 className="btn btn--med btn--theme dynamicBgClr"
-                target="_blank"
               >
                 Case Study
-              </a>
+              </Link>
             </div>
           </div>
         </div>

@@ -5,7 +5,7 @@ export default function Header() {
     <header className="header">
       <div className="header__content">
         <div className="header__logo-container">
-          <span className="header__logo-sub">John Doe</span>
+          <span className="header__logo-sub">Daniel Ash</span>
         </div>
         <div className="header__main">
           <ul className="header__links">

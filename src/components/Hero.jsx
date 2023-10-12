@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function Hero() {
   return (
     <section className="home-hero">
@@ -12,9 +14,9 @@ export default function Hero() {
           </p>
         </div>
         <div className="home-hero__cta">
-          <a href="./#projects" className="btn btn--bg">
+          <Link to="/#projects" className="btn btn--bg">
             Projects
-          </a>
+          </Link>
         </div>
       </div>
       <div className="home-hero__mouse-scroll-cont">

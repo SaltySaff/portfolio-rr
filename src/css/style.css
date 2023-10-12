@@ -23,7 +23,6 @@ Inside media queries 1em is always 16px i.e 1em = 16px at every screen size only
 
 html {
   font-size: 62.5%;
-  scroll-behavior: smooth;
 }
 @media only screen and (max-width: 75em) {
   html {
