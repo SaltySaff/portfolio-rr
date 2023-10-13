@@ -55,7 +55,7 @@ export default function Quizzical() {
                   <div className="skills__skill">CSS</div>
                   <div className="skills__skill">JavaScript</div>
                   <div className="skills__skill">React</div>
-                  <div className="skills__skill">API</div>
+                  <div className="skills__skill">OpenTDB API</div>
                 </div>
               </div>
               <div className="project-details__links">

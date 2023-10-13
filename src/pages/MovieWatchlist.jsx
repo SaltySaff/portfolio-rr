@@ -1,4 +1,4 @@
-import todoImage from "../assets/png/todo.png"
+import watchlistImage from "../assets/png/watchlist.png";
 
 export default function MovieWatchlist() {
   return (
@@ -8,13 +8,11 @@ export default function MovieWatchlist() {
         <div className="project-cs-hero__content">
           <h1 className="heading-primary">Movie Watchlist</h1>
           <div className="project-cs-hero__info">
-            <p className="text-primary">
-              Keep track of your movie backlog!
-            </p>
+            <p className="text-primary">Keep track of your movie backlog!</p>
           </div>
           <div className="project-cs-hero__cta">
             <a
-              href="https://candid-kleicha-2cd693.netlify.app/"
+              href="https://silver-crostata-37f94e.netlify.app/"
               className="btn btn--bg"
               target="_blank"
               rel="noreferrer"
@@ -29,7 +27,7 @@ export default function MovieWatchlist() {
           <div className="project-details__content">
             <div className="project-details__showcase-img-cont">
               <img
-                src={todoImage}
+                src={watchlistImage}
                 alt="Project Image"
                 className="project-details__showcase-img"
               />
@@ -40,7 +38,13 @@ export default function MovieWatchlist() {
                   Project Overview
                 </h3>
                 <p className="project-details__desc-para">
-                Designed with user-friendliness in mind, this application allows you to effortlessly add, delete, filter, and even drag-and-drop your todos, making task management a breeze. Stay organized and boost productivity with ease using our intuitive web-based tool.
+                  Crafted with React and enhanced by React Router for seamless
+                  page navigation, Movie Watchlist is a robust and intuitive
+                  application that allows movie enthusiasts to search, explore,
+                  and manage their own personalized watchlist. Utilizing the
+                  comprehensive OMDb API, the application offers users the
+                  ability to search from a wide array of films, from classics to
+                  the latest releases.
                 </p>
               </div>
               <div className="project-details__tools-used">
@@ -50,8 +54,8 @@ export default function MovieWatchlist() {
                   <div className="skills__skill">CSS</div>
                   <div className="skills__skill">JavaScript</div>
                   <div className="skills__skill">React</div>
-                  <div className="skills__skill">Tailwind CSS</div>
-                  <div className="skills__skill">React Beautiful DND</div>
+                  <div className="skills__skill">React Router</div>
+                  <div className="skills__skill">OMDb API</div>
                 </div>
               </div>
               <div className="project-details__links">
